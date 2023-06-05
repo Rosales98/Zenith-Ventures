@@ -1,0 +1,164 @@
+html {
+    font-size: 16px;
+}
+
+* {
+    scroll-padding-top: 4rem;
+}
+
+img {
+    width: 100%;
+}
+
+body {
+    margin: 0;
+    background-color: #c3cfdc;
+}
+
+a {
+    text-decoration: none;
+}
+
+.title h1 {
+    text-align: center;
+    font-family: 'Libre Baskerville', serif;
+    color: #3a5f8c;
+}
+
+p {
+    font-family: 'EB Garamond', serif;
+}
+
+/* Test */
+header {
+    height: 4rem;
+    background-color: #3a5f8c;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+}
+
+.company-logo img {
+    height: 2rem;
+    width: 2rem;
+    float: left;
+    margin: 0.75rem 1rem;
+}
+
+.nav-container{
+    display: flex;
+    align-items: center;
+}
+
+.nav-container li {
+    display: inline;
+    text-align: center;
+    padding: 0 1rem;
+}
+
+.nav-container a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+/* Mission Section*/
+#mission {
+    background-image: url(resources/Images/jason-blackeye-nyL-rzwP-Mk-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+    margin-top: 4rem;
+    width: 100%;
+    height: 32rem;
+}
+
+#mission h1 {
+    font-family: 'Libre Baskerville', serif;
+    
+}
+
+.mission-container {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1rem 2rem;
+    background-color: #3a5f8c;
+    position: absolute;
+    top: 9rem;
+    left: 9rem;
+    width: 16rem;
+    border-radius: 2rem;
+    color: #ffffff;
+}
+
+
+@media only screen and (max-width: 426px) {
+    .mission-container{
+        width: 13rem;
+        top: 9rem;
+        left: 1.5rem;
+        padding: 1rem 2rem;
+    }
+
+    #mission p{
+        font-size: medium;
+    }
+}
+/*Products*/
+#products .procontainer {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+.product img {
+    width: 20rem;
+}
+
+/*Team members*/
+#member {
+    display: flex;
+    margin: 0rem 5rem 2rem 5rem;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-align: center;
+}
+
+#member img {
+    width: 20rem;
+}
+
+.pteam {
+    text-align: center;
+}
+
+/* Footer section */
+footer{
+    width: 100%;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    background-color: #3a5f8c;
+    color: #ffffff;
+    line-height: .4;
+    padding: 0rem 0 .5rem .25rem;
+}
+
+.contact h6 {
+    text-align: center;
+    font-family: 'Libre Baskerville', serif;
+    ;
+}
+
+.contact p {
+    margin: .30rem;
+}
+
+.contact a {
+    color: #c3cfdc;
+    text-decoration: underline;
+}
